@@ -18,13 +18,8 @@ ul {
 
 ul li {
   list-style: none;
-<<<<<<< HEAD
-  display: inline-block;
-  line-height: 100px;
-=======
   float: left;
-  padding: 0px 20px;
->>>>>>> 24aa35f52af1f759f4fc1fca9e91aa8be1b27565
+  line-height: 100px;
 }
 
 ul li a {
