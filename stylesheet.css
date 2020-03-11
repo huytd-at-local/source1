@@ -315,19 +315,28 @@ header .header-cases {
     height: 230px;
     width: 1000px;
     background-color: #e3e3e3;
-    text-align: center;
     color: #111;
 }
 
 .cases-contact-banner .wrapper h2 {
     font-size: 40px;
     font-weight: 900;
+    line-height: 52px;
+    padding-top: 57px;
+    text-align: center;
+}
+
+.cases-contact-banner .wrapper ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cases-contact-banner .wrapper ul li {
-    list-style: none;
     font-size: 20px;
     font-weight: 600;
+    list-style: none;
+    line-height: 32px;
 }
 
 /*FOOTER*/
