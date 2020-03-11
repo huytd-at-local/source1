@@ -303,10 +303,31 @@ header .header-cases {
 }
 
 .cases-links .wrapper p {
+    padding-top: 45%;
     font-size: 20px;
     color: #111;
     font-weight: 600;
     text-align: center;
+}
+
+/*Cases contact banner*/
+.cases-contact-banner .wrapper {
+    height: 230px;
+    width: 1000px;
+    background-color: #e3e3e3;
+    text-align: center;
+    color: #111;
+}
+
+.cases-contact-banner .wrapper h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.cases-contact-banner .wrapper ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /*FOOTER*/
