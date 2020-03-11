@@ -327,9 +327,10 @@ header .header-cases {
 }
 
 .cases-contact-banner .wrapper ul {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .cases-contact-banner .wrapper ul li {
