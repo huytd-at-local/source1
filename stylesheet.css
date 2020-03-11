@@ -282,6 +282,33 @@ header .header-cases {
     }
 }
 
+/*事例*/
+.cases-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cases-links .wrapper h2 {
+    font-size: 28px;
+    color: #111;
+    font-weight: 600;
+}
+
+.cases-links .wrapper div {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0;
+    background-color: #e3e3e3;
+}
+
+.cases-links .wrapper p {
+    font-size: 20px;
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+
 /*FOOTER*/
 
 footer {
