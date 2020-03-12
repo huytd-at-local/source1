@@ -289,9 +289,11 @@ header .header-cases {
 }
 
 .cases-links .wrapper h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 28px;
     color: #111;
     font-weight: 600;
+    text-align: center;
 }
 
 .cases-links .wrapper div {
@@ -303,12 +305,14 @@ header .header-cases {
 }
 
 .cases-links .wrapper p {
-    padding-top: 45%;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 230px;
     font-size: 20px;
     color: #111;
     font-weight: 600;
     text-align: center;
 }
+
 
 /*Cases contact banner*/
 .cases-contact-banner .wrapper {
@@ -319,6 +323,7 @@ header .header-cases {
 }
 
 .cases-contact-banner .wrapper h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 40px;
     font-weight: 900;
     line-height: 52px;
@@ -334,10 +339,46 @@ header .header-cases {
 }
 
 .cases-contact-banner .wrapper ul li {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     font-weight: 600;
     list-style: none;
     line-height: 32px;
+}
+
+/*CASE*/
+
+.case-vid h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+
+.case-vid video {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.case-vid article h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    color: #111;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.case-vid article p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    font-weight: 600;
+    column-count: 3;
+    column-gap: 30px;
+    padding-bottom: 20px;
 }
 
 /*FOOTER*/
@@ -363,7 +404,7 @@ footer ul li {
 
 footer ul li a {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     color: #fff;
     line-height: 40px;
 }
@@ -393,7 +434,7 @@ footer ul li a {
 
     footer ul li p {
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 24px;
+        font-size: 16px;
         color: #fff;
         line-height: 40px;
 
