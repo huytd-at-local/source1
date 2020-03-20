@@ -1,200 +1,106 @@
-* {
-    box-sizing: border-box;
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
 body {
-    margin: 0;
-    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
 }
 
 a {
-    text-decoration: none;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
-
-/* clearクラスにfloatを解除するためのCSSを記述してください */
-.clear {
-    clear: left;
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
 }
 
-.container {
-    width: 100%;
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
 }
 
-.top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top.png);
-    background-size: cover;
-    color: white;
-    text-align: center;
+del {
+    text-decoration: line-through;
 }
 
-.top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
 }
 
-.top-wrapper p {
-    opacity: 0.7;
+table {
+    border-collapse:collapse;
+    border-spacing:0;
 }
 
-.btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
 }
 
-.btn-wrapper p {
-    margin: 10px 0;
+input, select {
+    vertical-align:middle;
 }
 
-.signup {
-    background-color: #239b76;
-}
+/*下は俺のコード*/
 
-.facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-}
-
-.twitter {
-    background-color: #55acee;
-}
-
-.btn {
-    padding: 8px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.fa {
-    margin-right: 5px;
-}
-
-header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    position: fixed;
-    top: 0;
-    z-index: 10;
-}
-
-.logo {
-    width: 124px;
-    margin-top: 20px;
-}
-
-.header-left {
-    float: left;
-}
-
-.header-right {
-    float: right;
-    margin-right: -25px;
-}
-
-.header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-}
-
-.header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.lesson-wrapper {
-    /* heightを削除してください */
-    /*height: 580px;*/
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
-    text-align: center;
-}
-
-.heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #5f5d60;
-}
-
-.heading h2 {
-    font-weight: normal;
-}
-
-.lesson {
-    float: left;
-    width: 25%;
-}
-
-.lesson-icon {
-    position: relative;
-}
-
-.lesson-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
-}
-
-.text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 13px;
-    color: #b3aeb5;
-}
-
-.heading h3 {
-    font-weight: normal;
-}
-
-.message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
-}
-
-.message {
-    padding: 15px 40px;
-    background-color: #5dca88;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-}
-
-footer img {
-    width: 125px;
-}
-
-footer p {
-    color: #b3aeb5;
-    font-size: 12px;
-}
-
-footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
 
