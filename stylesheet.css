@@ -18,59 +18,59 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 body {
-    line-height:1;
+    line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
 nav ul {
-    list-style:none;
+    list-style: none;
 }
 
 blockquote, q {
-    quotes:none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content:'';
-    content:none;
+    content: '';
+    content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
 }
 
 del {
@@ -78,33 +78,34 @@ del {
 }
 
 abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+    border-bottom: 1px dotted;
+    cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 input, select {
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 /*下は俺のコード*/
 
 * {
     list-style: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -117,7 +118,7 @@ a {
 
 header {
     width: 100%;
-    height: 163px;
+    height: 90px;
     text-align: center;
     font-weight: bold;
 }
@@ -128,10 +129,11 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .header-left {
     float: left;
-    font-size: 50px;
-    line-height: 163px;
+    font-size: 24px;
+    line-height: 90px;
     color: rgb(18, 43, 70);
 }
 
@@ -141,7 +143,7 @@ header {
 
 .header-right li {
     float: left;
-    line-height: 163px;
+    line-height: 90px;
     padding: 0 30px;
 }
 
@@ -156,11 +158,117 @@ header {
     background-image: url("img/main-vsual-nontitle.png");
     height: 420px;
     background-size: cover;
-    position: relative;
-}
-.banner-text {
-    position: absolute;
-    height: 140px;
-    top: 140px;
+    color: rgb(18, 43, 70);
+    font-weight: bold;
 }
 
+.banner-text {
+    padding-top: 114.5px;
+}
+
+.banner-text h1 {
+    font-size: 42px;
+    line-height: 58px;
+}
+
+.banner-text p {
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.index-wrapper {
+    width: 100%;
+    color: rgb(18, 43, 70);
+    height: 510px;
+}
+
+.index-wrapper h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.index-wrapper img {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+
+.index-wrapper p {
+    float: right;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.courses-wrapper {
+    width: 100%;
+    color: rgb(18, 43, 70);
+    height: 370px;
+}
+
+.courses-wrapper h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+.course {
+    width: 33.33%;
+    float: left;
+}
+.web2nd img {
+ margin-left: 29.975px;
+}
+.web2nd p {
+    margin-left: 29.975px;
+}
+.course img {
+    width: 320px;
+}
+.web3rd img {
+    margin-left: 59.95px;
+}
+.web3rd p {
+    margin-left: 59.95px;
+}
+.course p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-wrapper h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    color: rgb(18, 43, 70);
+}
+
+.contact-wrapper p {
+    color: rgb(18, 43, 70);
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.contact-wrapper input[type="text"] {
+    border: 2px solid #cccccc;
+    border-radius: 18px;
+    height: 60px;
+    font-size: 24px;
+    margin: 5px 0;
+    width: 60%;
+}
+
+.contact-btn {
+    display: inline-block;
+
+}
