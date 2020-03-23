@@ -220,25 +220,32 @@ header {
     width: 33.33%;
     float: left;
 }
+
 .web2nd img {
- margin-left: 29.975px;
+    margin-left: 29.975px;
 }
+
 .web2nd p {
     margin-left: 29.975px;
 }
+
 .course img {
     width: 320px;
 }
+
 .web3rd img {
     margin-left: 59.95px;
 }
+
 .web3rd p {
     margin-left: 59.95px;
 }
+
 .course p {
     font-size: 16px;
     line-height: 24px;
 }
+
 .contact-wrapper {
     width: 100%;
     text-align: center;
@@ -270,5 +277,28 @@ header {
 
 .contact-btn {
     display: inline-block;
+    width: 400px;
+    margin-top: 15px;
+    background-color: rgb(233, 98, 89);
+    border-radius: 5px;
+}
 
+.contact-btn a {
+    color: #fff;
+    line-height: 65px;
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact-bot {
+    height: 150px;
+    border-bottom: 1px solid lightgray;
+}
+
+footer {
+    text-align: right;
+    padding: 30px 0 60px 0;
+    font-size: 14px;
+    color: #010101;
 }
